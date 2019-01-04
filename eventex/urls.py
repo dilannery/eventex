@@ -16,6 +16,9 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
+import eventex.core.views
+
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
+    url('', eventex.core.views.home),
+    url('admin/', admin.site.urls),
 ]

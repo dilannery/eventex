@@ -1,4 +1,5 @@
 .wttd/
+.idea/
 
 **/__pycache__/**
 

@@ -1,8 +1,6 @@
 .wttd/
 .idea/
-
 .env
-
 **/__pycache__/**
-
 db.sqlite3
+staticfiles

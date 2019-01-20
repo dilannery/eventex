@@ -13,12 +13,12 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf.urls import url
+from django.urls import path
 from django.contrib import admin
 
 from eventex.core.views import home
 
 urlpatterns = [
-    url('', home),
-    url('admin/', admin.site.urls),
+    path('', home),
+    path('admin/', admin.site.urls),
 ]
